@@ -19,9 +19,9 @@ class EnigmaApplicationTests {
 
     @Test
     void contextLoads() {
-        String data = "123: TEST :ABC";
+        String data = "Skorpion - Vitya";
         String encrypted = enigmaService.encrypt(data);
-        String decrypted = enigmaService.decrypt(data);
+        String decrypted = enigmaService.decrypt(encrypted);
 
         System.out.println(enigmaService.getSymbols());
         System.out.println("V");
