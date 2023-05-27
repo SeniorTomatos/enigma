@@ -25,7 +25,7 @@ public class EnigmaService {
         IntStream out = IntStream.concat(part1, azCup);
 
         symbols = out.mapToObj(c -> String.valueOf((char) c)).collect(Collectors.joining());
-        symbols+= " :";
+        symbols+= " +=:-";
     }
 
     public String getSymbols (){
